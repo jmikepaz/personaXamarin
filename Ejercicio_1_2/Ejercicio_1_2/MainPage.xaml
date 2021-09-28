@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Registro de persona"
+             x:Class="Ejercicio_1_2.MainPage">
+
+    <StackLayout> 
+        <Entry Placeholder="Nombre" x:Name="txtnombre" Keyboard="Default"/>
+        <Entry Placeholder="Apellido" x:Name="txtapellido" Keyboard="Default"/>
+        <Entry Placeholder="edad" x:Name="txtedad" Keyboard="Numeric"/>
+        <Entry Placeholder="Correo" x:Name="txtcorreo" Keyboard="Email"/>
+
+      
+
+        <Button Text="Enviar" FontSize="22"
+                Background="#060D24" TextColor="White"
+                x:Name="btnenviar" Clicked="btnenviar_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

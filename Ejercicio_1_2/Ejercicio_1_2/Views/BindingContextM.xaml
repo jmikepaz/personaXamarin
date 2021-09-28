@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Datos recibidos"
+             x:Class="Ejercicio_1_2.Views.BindingContextM">
+    <ContentPage.Content>
+        <StackLayout> 
+
+            <Label Text="Nombre:"
+               HorizontalOptions="Center" FontSize="22" />
+            <Label Text="{Binding Nombre}"
+               HorizontalOptions="Center" />
+
+            <Label Text="Apellido:"
+               HorizontalOptions="Center" FontSize="22" />
+            <Label Text="{Binding apellido}"
+               HorizontalOptions="Center" />
+
+            <Label Text="Edad:"
+               HorizontalOptions="Center" FontSize="22"/>
+            <Label Text="{Binding edad}"
+               HorizontalOptions="Center" />
+
+            <Label Text="Correo"
+               HorizontalOptions="Center" FontSize="22" />
+            <Label Text="{Binding correo}"
+               HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
